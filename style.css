@@ -1,0 +1,54 @@
+ body {
+  background-image:linear-gradient(180deg,rgba(0,0,0,0.3)0%, rgba(0,0,0,0.6)100%),url("img/scissors.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+ }
+img{
+  filter: blur(5px);
+}
+ #head{
+border: 3px solid white;
+width: 400px;
+height: 500px;
+border-radius: 20px;
+margin-top: 200px;
+margin-bottom: 100px;
+margin-right:800px;
+box-shadow: 3px 3px 10px  white;
+color: white;
+
+}
+.i{
+  width:270px;
+  margin-left: 10px;
+  border-radius: 10px;
+  height: 30px;
+  margin-left: 100px;
+}
+.i:hover{
+  background-color:ghostwhite;
+}
+#hi{
+  align-items: center;
+  width:100px;
+  height:40px ;
+  margin-left: 150px;
+  margin-top: 30px;
+  border-radius:20px;
+ background-color: white;
+ box-shadow: 1px 1px 5px  white;
+ border-color:white;
+}
+#hi:hover{
+   color:white;
+   background-color:rgb(51, 51, 255);
+
+}
+.j{
+  margin-left: 30px;
+  display: flex;
+  
+}
